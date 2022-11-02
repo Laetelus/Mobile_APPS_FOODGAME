@@ -1,5 +1,3 @@
-# Unit-8-Group-Project-App-Design-Part-1
-
 Original App Design Project - 
 ===
 
@@ -50,15 +48,14 @@ Food deciding app. When a group or a couple can't decided on a place to eat then
 * Register
     * register new account 
 * Login
-   * [list associated required story here]
    * user can login
 * Maps
-    * user can see fast food/resturants location
-* creation
-    * star reviews of fastfood/resturants.
-* creation
+    * user can see fast food/resturants location around them
+* stream review
+    * star reviews of fastfood/resturants around them.
+* creation comment
     * comments on fastfood/resturants.
-* Detail
+* Detail game
     * user see some type of animation(dice or spining wheel it's random) that selects the food place.
 
     
@@ -67,32 +64,29 @@ Food deciding app. When a group or a couple can't decided on a place to eat then
 
 **Tab Navigation** (Tab to Screen)
 
-* 
-* [fill out your second tab]
-* [fill out your third tab]
+* Maps
+* Stream reveiew
+* creation comment
+* Detail game
+
+    
 
 **Flow Navigation** (Screen to Screen)
-[](https://)[](https://)
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
 
-## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+* Register
+    * stream review
+* Login
+    * stream review
+* Maps
+    * stream review
+* stream review
+    * Detail game
+* creation comment
+    * stream review
+* Detail game
+    * stream review
 
-### [BONUS] Digital Wireframes & Mockups
+![](https://i.imgur.com/27y3Imz.jpg)
 
-### [BONUS] Interactive Prototype
-
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+    
+    
