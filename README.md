@@ -123,3 +123,25 @@ Food deciding app. When a group or a couple can't decided on a place to eat then
    | objectId      | String   | unique id for stores chosen |
    | starCount   | Number   | number of stars on the store chosen randomly |
 
+### Networking
+#### List of network requests by screen
+   - Home Feed Screen
+      - (Read/GET) Captions of store's objects 
+      - (Read/GET) star Reviews of store's objects 
+      - (Create/POST) Create a new star rating on a store post
+      - (Create/POST) Create a new comment on a store post
+      - (Delete) Delete existing comment
+      - (Delete) Delete existing star reviews
+   - Create comment Screen
+      - (Create/POST) Create a new comment object
+      - (Create/POST) Create a new star rating on a store post
+   - Profile Screen
+      - (Read/GET) Query logged in user object
+      - (Update/PUT) Update user profile image
+   - map Screen
+      - (Read/GET) object stores location near by
+      - (Update/PUT) update user's object location
+   - detail game screen
+      - (Read/GET) 3 store Objects selected for the game
+      - (Read/Get) store chossen caption once the store is slected
+      - (Read/GET) star Reviews of store's objects 
