@@ -88,5 +88,40 @@ Food deciding app. When a group or a couple can't decided on a place to eat then
 
 ![](https://i.imgur.com/27y3Imz.jpg)
 
+## Schema 
+### Models
+
+#### Stream reviewer
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for each store (default field) |
+   | Stores        | Pointer to store|  image of store |
+   | caption       | String   | image caption by users|
+   | commentsCount | Number   | number of comments that has been posted to an image |
+   | starCount    | Number   | number of stars on the store |
+   | createdAt     | DateTime | date when comment is created (default field) |
+
+#### creation comment
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the users comment |
+   | starCount   | Number   | number of stars on the store |
+   | comment    | String   | caption for store |
+
+#### maps
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for stores nearby |
+   | starCount   | Number   | number of stars on the store |
+
+#### Details game
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for stores chosen |
+   | starCount   | Number   | number of stars on the store chosen randomly |
+
     
     
