@@ -91,26 +91,33 @@ Food deciding app. When a group or a couple can't decided on a place to eat then
 ## Schema 
 ### Models
 
-#### Stream reviewer
+#### Store post
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for each store (default field) |
    | Stores        | Pointer to store|  image of store |
-   | caption       | String   | image caption by users|
+   | caption       | String   | caption of store |
+   | starCount    | Number   | number of stars on the store |
+   | comments | string   | comments of user given to store post  |
+   | commentsCount | Number   | number of comments that has been posted to an image |
+   | objectId      | String   | unique id for each store (default field) |
+
+
+   | Stores        | Pointer to store|  image of store |
+   | caption       | String   | caption of store |
    | commentsCount | Number   | number of comments that has been posted to an image |
    | starCount    | Number   | number of stars on the store |
    | createdAt     | DateTime | date when comment is created (default field) |
 
-#### creation comment
+#### comment
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | objectId      | String   | unique id for the users comment |
-   | starCount   | Number   | number of stars on the store |
-   | comment    | String   | caption for store |
+   | starCounts   | Number   | number of stars on the stores |
+   | comments    | String   | comments given to stores |
 
-#### maps
+#### user
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
@@ -123,5 +130,3 @@ Food deciding app. When a group or a couple can't decided on a place to eat then
    | objectId      | String   | unique id for stores chosen |
    | starCount   | Number   | number of stars on the store chosen randomly |
 
-    
-    
