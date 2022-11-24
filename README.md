@@ -147,7 +147,7 @@ Food deciding app. When a group or a couple can't decided on a place to eat then
       - (Read/GET) star Reviews of store's objects 
 
 ### [BONUS] Interactive Prototype
-##### user login 
+#### unit 11 - Sprint 2 - user login 
 - user can make an account and login aswell as log out. User will also stay logged in until they logged out of the app -
 ![ezgif com-gif-maker-9](https://user-images.githubusercontent.com/87499194/203812326-a6ca841b-ff1e-4ded-8154-00682a68803c.gif)
 
