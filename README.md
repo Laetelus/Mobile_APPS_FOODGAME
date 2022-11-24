@@ -145,6 +145,12 @@ Food deciding app. When a group or a couple can't decided on a place to eat then
       - (Read/GET) 3 store Objects selected for the game
       - (Read/Get) store chossen caption once the store is slected
       - (Read/GET) star Reviews of store's objects 
+
+### [BONUS] Interactive Prototype
+##### user login 
+- user can make an account and login aswell as log out. User will also stay logged in until they logged out of the app -
+![ezgif com-gif-maker-9](https://user-images.githubusercontent.com/87499194/203812326-a6ca841b-ff1e-4ded-8154-00682a68803c.gif)
+
       
 #### [OPTIONAL:] Existing API Endpoints
 ##### An API of parse data base for users
