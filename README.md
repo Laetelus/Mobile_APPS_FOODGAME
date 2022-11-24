@@ -147,7 +147,7 @@ Food deciding app. When a group or a couple can't decided on a place to eat then
       - (Read/GET) star Reviews of store's objects 
       
 #### [OPTIONAL:] Existing API Endpoints
-##### An API of parse data base fro users
+##### An API of parse data base for users
 - Base URL - https://parseapi.back4app.com
  HTTP Verb | Endpoint | Description
    ----------|----------|------------
