@@ -95,12 +95,12 @@
             </objects>
             <point key="canvasLocation" x="898" y="-2"/>
         </scene>
-        <!--View Controller-->
+        <!--Food Load View Controller-->
         <scene sceneID="nkB-Cy-o6g">
             <objects>
-                <viewController id="CDv-eV-YTd" sceneMemberID="viewController">
+                <viewController id="CDv-eV-YTd" customClass="FoodLoadViewController" customModule="FoodGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZEx-2U-4cR">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red" translatesAutoresizingMaskIntoConstraints="NO" id="fqQ-pv-7gp">
@@ -127,14 +127,32 @@
                                 <rect key="frame" x="217" y="255" width="160" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="voB-0d-tG5">
+                                <rect key="frame" x="103" y="80" width="187" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Tab">
+                                    <color key="titleColor" red="0.94117647059999998" green="0.64705882349999999" blue="0.24313725489999999" alpha="0.8980392157" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="tab:" destination="CDv-eV-YTd" eventType="touchUpInside" id="M3t-hZ-bJp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="T7B-zs-kcO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="randfour" destination="Dpa-aL-plm" id="UCT-Yc-edM"/>
+                        <outlet property="randone" destination="jJh-Go-qu4" id="wRE-ij-tMI"/>
+                        <outlet property="randthree" destination="HEQ-TY-z0n" id="OIi-dS-2hN"/>
+                        <outlet property="randtwo" destination="aez-fZ-jk4" id="bkr-Gd-sIX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZWT-mR-vgH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2696.9465648854962" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="1974.8091603053435" y="-706.33802816901414"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="BIh-XO-XIH">
@@ -247,6 +265,7 @@
                                 </state>
                                 <connections>
                                     <action selector="rollButtonPressed:" destination="bj6-uf-0eB" eventType="touchUpInside" id="fIl-7H-hQ8"/>
+                                    <segue destination="CDv-eV-YTd" kind="presentation" id="ghS-Oz-aeO"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="restaurant" translatesAutoresizingMaskIntoConstraints="NO" id="Zhl-lj-ebX">
