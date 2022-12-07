@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class FoodLoadViewController: UIViewController {
     
@@ -28,15 +29,38 @@ class FoodLoadViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-//    @IBOutlet weak var diceImageView1: UIImageView!
-//    @IBOutlet weak var diceImageView2: UIImageView!
+
+    
+//    @objc func loadOptions(){
+//
+//        numberOfTweet = 20
+//        let myUrl = "https://api.yelp.com/v3/businesses/search?term=delis&latitude=37.786882&longitude=-122.399972"
+//        let myParams = ["count": numberOfTweet]
+//
+//        TwitterAPICaller.client?.getDictionariesRequest(url: myUrl, parameters: myParams, success: { (tweets: [NSDictionary]) in
+//
+//            //cleanup data befor the code bekow this other code below
+//            self.tweetArray.removeAll()
+//            //add tweets in the tweetArray created above
+//            for tweet in tweets {
+//                self.tweetArray.append(tweet)
+//            }
+//
+//            self.tableView.reloadData()
+//            //to stop refreshing
+//            self.myRefreshControl.endRefreshing()
+//
+//        }, failure: { (Error) in
+//            print("Unable to Tweet! :(")
+//        })
+//    }
     
     
     func updateFoodImages() {
      
         
-        randomFoodIndex1 = Int(arc4random_uniform(6))
-        randomFoodIndex2 = Int(arc4random_uniform(6))
+        randomFoodIndex1 = Int(arc4random_uniform(4))
+        randomFoodIndex2 = Int(arc4random_uniform(4))
         
         print(randomFoodIndex1)
         
@@ -51,6 +75,7 @@ class FoodLoadViewController: UIViewController {
     
     @IBAction func tab(_ sender: Any) {
         updateFoodImages()
+        
     }
     
     
@@ -64,7 +89,19 @@ class FoodLoadViewController: UIViewController {
         }
         
     }
-
+    
+    @IBAction func onLogout(_ sender: Any) {
+        PFUser.logOut()
+        let main = UIStoryboard(name:"Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
+        
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,let delegate = windowScene.delegate as? SceneDelegate else {return }
+        delegate.window?.rootViewController = loginViewController
+    }
+    
+    @IBAction func reviews(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
