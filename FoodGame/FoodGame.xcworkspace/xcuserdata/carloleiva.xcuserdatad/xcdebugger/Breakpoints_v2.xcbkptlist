@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "ECC8F91B-3162-4BB3-952A-B61991882E24"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "679DEFAA-21E7-4067-9133-38A8D49878B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodGame/HViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "HViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "679DEFAA-21E7-4067-9133-38A8D49878B8 - 945ca6b09ee43b36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodGame.HViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FoodGame.HViewController"
+                  moduleName = "FoodGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carloleiva/Downloads/Food-game-app-version-2-main-4/FoodGame/FoodGame/HViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "679DEFAA-21E7-4067-9133-38A8D49878B8 - 2c55eef78f6615f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodGame.HViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FoodGame.HViewController&gt;"
+                  moduleName = "FoodGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carloleiva/Downloads/Food-game-app-version-2-main-4/FoodGame/FoodGame/HViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "449">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
