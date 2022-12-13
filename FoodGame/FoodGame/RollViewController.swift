@@ -1,16 +1,13 @@
 //
-//  FeedViewController.swift
+//  RollViewController.swift
 //  FoodGame
 //
-//  Created by Carlo Leiva on 11/23/22.
+//  Created by Phantom on 11/29/22.
 //
 
 import UIKit
-import Parse
 
-class FeedViewController: UIViewController {
-
-
+class RollViewController: UIViewController {
     
     @IBOutlet weak var diceImageView1: UIImageView!
     @IBOutlet weak var diceImageView2: UIImageView!
@@ -29,8 +26,6 @@ class FeedViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-    
     
     
     
@@ -57,19 +52,12 @@ class FeedViewController: UIViewController {
 
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if motion == .motionShake {
+            
             updateDiceImages()
+            
+            
         }
-    }
-    
-    
-    @IBAction func onLogoutButton(_ sender: Any) {
-        PFUser.logOut()
-        let main = UIStoryboard(name:"Main", bundle: nil)
-        let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
         
-        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,let delegate = windowScene.delegate as? SceneDelegate else {return }
-        delegate.window?.rootViewController = loginViewController
     }
-    
 
 }
