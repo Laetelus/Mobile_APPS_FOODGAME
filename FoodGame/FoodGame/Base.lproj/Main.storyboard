@@ -298,10 +298,6 @@
                                     <action selector="onLogoutButton:" destination="4oU-HY-ToL" eventType="touchUpInside" id="6NH-LR-sV4"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="rpD-vL-BGk">
-                                <rect key="frame" x="116" y="349" width="160" height="154"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iaQ-qi-ZtE">
                                 <rect key="frame" x="245" y="67" width="148" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -315,17 +311,21 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEM-4S-ZEH">
-                                <rect key="frame" x="103" y="119" width="187" height="82"/>
+                                <rect key="frame" x="19" y="136" width="354" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="35"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Tab">
+                                <state key="normal" title="Randimize Button">
                                     <color key="titleColor" red="0.94117647059999998" green="0.64705882349999999" blue="0.24313725489999999" alpha="0.8980392157" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="tabb:" destination="4oU-HY-ToL" eventType="touchUpInside" id="Mo3-IL-coq"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="restaurant" translatesAutoresizingMaskIntoConstraints="NO" id="rpD-vL-BGk">
+                                <rect key="frame" x="53" y="339" width="286" height="287"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bqj-1j-q5N"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -355,21 +355,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjQ-SF-xZf">
-                                <rect key="frame" x="103" y="114" width="187" height="82"/>
+                                <rect key="frame" x="20" y="114" width="354" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="35"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Tab">
+                                <state key="normal" title="Randimize Button">
                                     <color key="titleColor" red="0.94117647059999998" green="0.64705882349999999" blue="0.24313725489999999" alpha="0.8980392157" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="tabb:" destination="jKV-sZ-H1t" eventType="touchUpInside" id="Tna-Kg-GWk"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="HHa-ly-1FH">
-                                <rect key="frame" x="116" y="349" width="160" height="154"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVG-D9-gRK">
                                 <rect key="frame" x="253" y="62" width="124" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -392,6 +388,10 @@
                                     <action selector="onLogoutButton:" destination="jKV-sZ-H1t" eventType="touchUpInside" id="9OZ-x5-cdp"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="restaurant" translatesAutoresizingMaskIntoConstraints="NO" id="HHa-ly-1FH">
+                                <rect key="frame" x="47" y="285" width="299" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wNt-W8-HaO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -422,11 +422,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7H3-EH-Dvs">
-                                <rect key="frame" x="103" y="116" width="187" height="82"/>
+                                <rect key="frame" x="20" y="116" width="354" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="35"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Tab">
+                                <state key="normal" title="Randimize Button">
                                     <color key="titleColor" red="0.94117647059999998" green="0.64705882349999999" blue="0.24313725489999999" alpha="0.8980392157" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -443,10 +443,6 @@
                                     <action selector="onLogoutButton:" destination="Vkz-39-bTh" eventType="touchUpInside" id="vYf-P8-o9f"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="pbL-TJ-ubP">
-                                <rect key="frame" x="116" y="349" width="160" height="154"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zQ-JN-yyX">
                                 <rect key="frame" x="229" y="59" width="148" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -459,6 +455,10 @@
                                     <segue destination="Sg6-1J-AaL" kind="presentation" modalPresentationStyle="fullScreen" id="JXj-lH-vEe"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="restaurant" translatesAutoresizingMaskIntoConstraints="NO" id="pbL-TJ-ubP">
+                                <rect key="frame" x="38" y="294" width="316" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6kN-o8-7hk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -473,13 +473,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="dbA-6G-C38"/>
         <segue reference="XZ3-y4-tOy"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="1" width="482" height="488"/>
-        <image name="2" width="478" height="484"/>
-        <image name="3" width="474" height="486"/>
         <image name="d1" width="225" height="225"/>
         <image name="dice1" width="100" height="100"/>
         <image name="dice2" width="100" height="100"/>
